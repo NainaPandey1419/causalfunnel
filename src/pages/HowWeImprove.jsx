@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Button, Grid, Paper, useTheme } from "@mui/material";
+import { Box, Typography, Button, Grid, Paper } from "@mui/material";
 import { styled } from "@mui/system";
 
 import howweimprove from "../assets/howweimprove.png";
@@ -7,9 +7,6 @@ import home31 from "../assets/home31.png";
 import home32 from "../assets/home32.png";
 import home33 from "../assets/home33.png";
 import home34 from "../assets/home34.png";
-import Titik from "../assets/Titik.png";
-import buttonleft from "../assets/buttonleft.png";
-import buttonright from "../assets/buttonright.png";
 
 const GradientCard = styled(Paper)(({ theme, gradient }) => ({
   display: "flex",
@@ -40,7 +37,6 @@ const ImageWrapper = styled(Box)(({ theme }) => ({
 }));
 
 const HowWeImprove = () => {
-  const theme = useTheme();
 
   return (
     <Box

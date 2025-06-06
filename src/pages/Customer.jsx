@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Paper, useTheme } from "@mui/material";
+import { Box, Typography, Paper } from "@mui/material";
 import { styled } from "@mui/system";
 
 import customer1 from "../assets/customer1.png";
@@ -29,7 +29,6 @@ const SquareImage = styled("img")({
 });
 
 const Customer = () => {
-  const theme = useTheme();
 
   return (
     <Box

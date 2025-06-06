@@ -4,15 +4,8 @@ import {
   Container,
   Typography,
   Button,
-  AppBar,
-  Toolbar,
   Grid,
-  Card,
-  CardContent,
-  useTheme,
-  useMediaQuery,
 } from "@mui/material";
-import { useNavigate } from "react-router-dom";
 
 import Navbar from "./Navbar.jsx";
 import HowItWorks from "./HowItWorks.jsx";
@@ -21,7 +14,6 @@ import Customer from "./Customer.jsx";
 import News from "./News.jsx";
 import Footer from "./Footer.jsx";
 
-import logo from "../assets/logo.png";
 import home1 from "../assets/home1.png";
 import home21 from "../assets/home21.png";
 import home22 from "../assets/home22.png";
@@ -30,9 +22,6 @@ import home24 from "../assets/home24.png";
 import home25 from "../assets/home25.png";
 
 const Home = () => {
-  const theme = useTheme();
-  const navigate = useNavigate();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const features = [
     {
