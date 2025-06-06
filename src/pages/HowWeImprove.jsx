@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Button, Grid, Paper } from "@mui/material";
+import { Box, Typography, Button, Grid, Paper,useTheme } from "@mui/material";
 import { styled } from "@mui/system";
 
 import howweimprove from "../assets/howweimprove.png";
@@ -37,6 +37,8 @@ const ImageWrapper = styled(Box)(({ theme }) => ({
 }));
 
 const HowWeImprove = () => {
+  // eslint-disable-next-line no-unused-vars
+  const theme = useTheme();
 
   return (
     <Box
